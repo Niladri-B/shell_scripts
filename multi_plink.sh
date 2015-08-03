@@ -2,4 +2,5 @@
 
 for i in 1:22;
 do;
-plink --noweb  --bfile onekgenome_height_dmr --chr $i --r2 --ld-snp-list  ../height_gwas_snp_1kgp_from_rsids --ld-window 99999 --ld-window-kb 1000 --ld-window-r2 0.2 --out ./onekgenome_height_dmr_bpid_chr$i;
+plink --noweb  --bfile ./onekgenome_height_dmr --chr $i --r2 --ld-snp-list  ./dmr/snps_ld_height_1kgp --ld-window 99999 --ld-window-kb 1000 --ld-window-r2 0.2 --out ./dmr_pt2/onekgenome_height_dmr_bpid_chr$i;
+done;
