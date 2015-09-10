@@ -3,10 +3,6 @@ echo The name of this program is : $0
 
 trial(){
 	echo The first parameter passed from the function is : $1
-	echo The second parameter passed from the function is : $1
-	echo The third parameter passed from the function is : $1
-	echo All the parameters passed are : $*
-	echo Total parameters passed is : $#
 	echo
 } 
 echo All done with : $0
