@@ -1,0 +1,30 @@
+git config --global user.name "Niladri-B"
+git config --global user.email "nilan666@gmail.com"
+git config --list #to confirm aforementioned changes have been made
+git config --global core.ui "auto"
+git init 
+git status
+git add <file>
+git commit -m "Comments of edits to file"
+git log
+git diff
+git diff --staged #difference between add and commit version
+git diff HEAD~1 filename #recalls last commit
+git diff HASHTAG!&/E%&2662 #same as above
+git checkout HEAD~1 filename
+cat filename
+
+#GITHUB
+#remote adds a link for git to conect to the internet
+
+git remote add origin <http://github.com/Niladri-B/git_repository.git>
+git remote -v #lists our URLS i.e origins
+git push origin master #push changes to github
+
+git clone <partner URL>
+git pull origin master
+
+#In case of conflict
+#git pull will mention conflict and error
+#open with nano and the different lines will be highlighted
+#follow up with git statud
