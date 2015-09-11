@@ -27,4 +27,12 @@ git pull origin master
 #In case of conflict
 #git pull will mention conflict and error
 #open with nano and the different lines will be highlighted
-#follow up with git statud
+#follow up with git status
+
+#If you try to merge a particular git repo with a pre-existing remote repo from a different folder, you may be prompted at Vim
+#Proceed as follows
+##	Press 'i' to enter 'Insert' mode
+##	Now you are in 'non-modal' form and can type as in a normal text editor. Type in reasons for merge.
+##	Once done press 'esc' to enter back into 'modal' form i.e command mode
+##	Type ':w' and press 'enter' to save changes
+##	Type ':q' and press 'enter' to quit
