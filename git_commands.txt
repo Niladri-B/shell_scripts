@@ -36,3 +36,6 @@ git pull origin master
 ##	Once done press 'esc' to enter back into 'modal' form i.e command mode
 ##	Type ':w' and press 'enter' to save changes
 ##	Type ':q' and press 'enter' to quit
+
+#Can change default text editor from vim to something else
+git config --global core.editor nano
