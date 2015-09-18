@@ -1,2 +1,2 @@
-# shell_scripts
+Experiments & Lessons in Bash scripting
 
