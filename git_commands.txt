@@ -17,7 +17,9 @@ cat filename
 #GITHUB
 #remote adds a link for git to conect to the internet
 
-git remote add origin <http://github.com/Niladri-B/git_repository.git>
+git remote add origin https://github.com/Niladri-B/git_repository.git
+#Note: Must MANUALLY create repository on GITHUB by clicking + on top right hand corner
+## git_repository is then the name you give to the new repo and type as repo.git
 git remote -v #lists our URLS i.e origins
 git push origin master #push changes to github
 
@@ -39,3 +41,7 @@ git pull origin master
 
 #Can change default text editor from vim to something else
 git config --global core.editor nano
+
+#More useful commands
+git clone <URL> # use this to copy data from online repo
+git fetch alias # fetch differences from online to update local and remote repo  # here alias would be origin because origin is the alias for remote repo
